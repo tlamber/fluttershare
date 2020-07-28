@@ -10,9 +10,7 @@
             <string>Editor</string>
             <key>CFBundleURLSchemes</key>
             <array>
-                <!-- Replace this value: -->
-                <!-- Copied from GoogleServices-Info.plist key REVERSE_CLIENT_ID -->
-                <string>com.googleusercontent.apps.59618786383-06uqombe6l6uf7p44l18vd8m90hjlhe5</string>
+                <string>com.googleusercontent.apps.93454857947-2h944m59g9c6iqc8qufis7dgha1446hq</string>
             </array>
         </dict>
     </array>

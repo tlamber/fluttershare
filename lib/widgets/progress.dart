@@ -1,9 +1,21 @@
 import 'package:flutter/material.dart';
 
-circularProgress() {
-  return Text("circular progress");
+circularProgress(BuildContext context) {
+  return Container(
+    alignment: Alignment.center,
+    child: CircularProgressIndicator(
+      valueColor: AlwaysStoppedAnimation(Theme.of(context).accentColor),
+    ),
+  );
 }
 
-linearProgress() {
-  return Text("linear progress");
+linearProgress(BuildContext context) {
+  return Container(
+    alignment: Alignment.topCenter,
+    child: LinearProgressIndicator(
+      valueColor: AlwaysStoppedAnimation(
+        Theme.of(context).accentColor,
+      ),
+    ),
+  );
 }
