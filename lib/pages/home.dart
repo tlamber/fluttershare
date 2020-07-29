@@ -109,7 +109,7 @@ class _HomeState extends State<Home> {
           // Timeline(),
           RaisedButton(child: Text('logout'), onPressed: signOutWithGoogle),
           ActivityFeed(),
-          Upload(),
+          Upload(currentUser),
           Search(),
           Profile(),
         ],
